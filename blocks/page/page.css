@@ -1,0 +1,20 @@
+body{
+    background: #2A2C2F;
+}
+.page{
+    margin: 0 auto;
+    max-width: 1280px;  
+    min-width: 1190px;
+}
+@media screen and (max-width: 1024px) {
+    .page{
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+} 
+@media screen and (max-width: 768px) {
+    .page{
+        margin: 0 auto;
+        max-width: 768px;
+    }
+} 

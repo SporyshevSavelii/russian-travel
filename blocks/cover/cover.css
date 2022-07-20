@@ -1,0 +1,23 @@
+.cover{
+    margin: 92px auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+}
+@media screen and (max-width: 1024px) {
+    .cover{
+        margin: 92px auto 0 auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        justify-items: center;
+        align-items: center;
+    }
+} 

@@ -1,0 +1,41 @@
+
+.header__lang-link{
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    text-decoration-line: none;
+    color: #FFFFFF;
+    margin-right: 18px;
+}
+.header__lang-link::before{
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #FFF;
+    transition: 0.2s;
+}
+.header__lang-link:last-child{
+    margin-right: 0;
+    text-decoration-line: none;
+}
+.header__lang-link:last-child::before{
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #FFF;
+    transition: 0.2s;
+}
+.header__lang-link:last-child:hover:before{
+    width: 100%;
+}
+
