@@ -7,4 +7,8 @@ font-size: 18px;
 line-height: 22px;
 text-decoration-line: underline;
 color: #FFFFFF;
+transition: opacity 0.2s linear;
+}
+.place__website__link:hover{
+opacity: .8;
 }

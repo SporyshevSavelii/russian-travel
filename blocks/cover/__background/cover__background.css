@@ -6,3 +6,10 @@
     grid-column-start: 1;
     grid-row-start: 1;
 }
+@media screen and (max-width: 1024px) {
+    .cover__background{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+} 
