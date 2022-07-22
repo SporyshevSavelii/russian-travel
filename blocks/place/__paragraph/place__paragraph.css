@@ -12,3 +12,30 @@ grid-area: paragraph;
 .place__paragraph>p{
  margin: 0 0 26PX 0;
 }
+@media screen and (max-width: 1024px) {
+    .place__paragraph{
+        margin: 48px 0 0 32px;
+        width: 456px;
+    }
+} 
+@media screen and (max-width: 975px) {
+    .place__paragraph{
+        margin: 48px 0 0 28px;
+        width: 352px;
+    }
+} 
+@media screen and (max-width: 768px) {
+    .place__paragraph{
+        font-size: 16px;
+    }
+} 
+@media screen and (max-width: 745px) {
+    .place__paragraph{
+        margin: 32px 0 0 0;
+    }
+} 
+@media screen and (max-width: 400px) {
+    .place__paragraph{
+        width: calc(100% - (16px * 2));
+    }
+}

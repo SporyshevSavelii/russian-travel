@@ -4,3 +4,25 @@
     grid-area: website;
     align-content: end;
 }
+@media screen and (max-width: 1024px) {
+    .place__website{
+        margin: 0 0 0 32px;
+    }
+} 
+@media screen and (max-width: 975px) {
+    .place__website{
+        margin: 0 0 0 28px;
+        width: 352px;
+    }
+} 
+@media screen and (max-width: 745px) {
+    .place__website{
+        margin: 32px 0 0 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .place__website{
+        width: calc(100% - (16px * 2));
+        margin: 32px 16px 0 16px;
+    }
+}

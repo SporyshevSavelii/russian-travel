@@ -9,15 +9,8 @@ body{
 }
 @media screen and (max-width: 1024px) {
     .page{
-        margin: 0 auto;
         width: 100%;
         max-width: 1024px;
     }
 } 
-@media screen and (max-width: 768px) {
-    .page{
-        margin: 0 auto;
-        width: 100%;
-        max-width: 768px;
-    }
-} 
+ 
