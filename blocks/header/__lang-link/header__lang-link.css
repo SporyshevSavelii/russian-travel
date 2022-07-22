@@ -38,17 +38,6 @@
 .header__lang-link:last-child:hover:before{
     width: 100%;
 }
-
-.header__lang-link::before{
-    content: '';
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    background-color: #FFF;
-    transition: 0.2s;
-}
 .header__lang-link:hover:before{
     width: 100%;
 }
