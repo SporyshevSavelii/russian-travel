@@ -10,7 +10,7 @@ color: #FFFFFF;
 grid-area: paragraph;
 }
 .place__paragraph>p{
- margin: 0 0 26PX 0;
+ margin: 0 0 26px 0;
 }
 @media screen and (max-width: 1024px) {
     .place__paragraph{
