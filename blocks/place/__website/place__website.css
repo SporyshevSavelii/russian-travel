@@ -1,5 +1,6 @@
 .place__website{
     margin: 0 0 0 40px;
+    padding: 0;
     display: grid;
     grid-area: website;
     align-content: end;

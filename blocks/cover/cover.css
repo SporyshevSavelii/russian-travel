@@ -1,18 +1,11 @@
 .cover{
+    border: 1px solid red;
     margin: 92px auto 0 auto;
+    padding: 0; 
     width: calc(100% - 7.5%);
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    justify-items: center;
-    align-items: center;
-    transition: opacity 0.2s linear;
+
 }
-.cover:hover{
-opacity: .8;
-}
+
 
 @media screen and (max-width: 1024px) {
     .cover{
@@ -25,3 +18,4 @@ opacity: .8;
         margin: 90px 0 0 0;
     }
 } 
+ 

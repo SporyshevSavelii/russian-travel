@@ -1,8 +1,11 @@
 @import url("../vendor/normalize.css");
 
+@import url("../fonts/fonts.css");
+
 @import url("../blocks/page/page.css");
 
 @import url("../blocks/cover/cover.css");
+@import url("../blocks/cover/__section/cover__section.css");
 @import url("../blocks/cover/__overlay/cover__overlay.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 @import url("../blocks/cover/__title/cover__title.css");
@@ -33,6 +36,7 @@
 @import url("../blocks/place/place.css");
 @import url("../blocks/place/__image/place__image.css");
 @import url("../blocks/place/__paragraph/place__paragraph.css");
+@import url("../blocks/place/__paragraph-area/place__paragraph-area.css");
 @import url("../blocks/place/__title/place__title.css");
 @import url("../blocks/place/__website/place__website.css");
 @import url("../blocks/place/__website/__link/place__link.css");
@@ -40,16 +44,7 @@
 
 @import url("../blocks/places/places.css");
 
-@font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Inter-Regular.otf');
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Inter-Bold.otf');
-    font-weight: 900;
-}
+
 
 
 
