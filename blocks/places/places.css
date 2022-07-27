@@ -1,24 +1,29 @@
-.places{
+.places {
     margin: 12px auto 0 auto;
     padding: 0;
+    max-width: 1280px;
+    min-width: 320px;
     display: flex;
     width: calc(1280px - (148px * 2));
     flex-direction: column;
 }
+
 @media screen and (max-width: 1024px) {
-    .places{
+    .places {
         width: calc(100% - (48px * 2));
     }
-} 
+}
+
 @media screen and (max-width: 768px) {
-    .places{
+    .places {
         margin: 14px auto 0 auto;
         width: calc(100% - (24px * 2));
     }
 }
+
 @media screen and (max-width: 400px) {
-    .places{
+    .places {
         margin: 14px 0 0 0;
         width: 100%;
     }
-}  
+}

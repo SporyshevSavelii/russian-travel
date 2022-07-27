@@ -1,16 +1,25 @@
-.header{
-    margin: 0;
-    padding: 46px 48px 0 48px;
+.header {
+    width: calc(100% - (48px * 2));
+    margin: 28px auto 0 auto;
+    border: 1px solid red;
+    max-width: calc(1280px - (48px * 2));
+    min-width: 320px;
+    padding: 0;
     display: flex;
     justify-content: space-between;
+    font-family: 'Inter', Arial, sans-serif;
 }
+
 @media screen and (max-width: 768px) {
-    .header{
-        padding: 46px 24px 0 24px;
+    .header {
+        margin: 46px auto 0 auto;
+        width: calc(100% - (24px * 2));
     }
 }
-@media screen and (max-width: 320px) {
-    .header{
-        padding: 30px 16px 0 16px;
+
+@media screen and (max-width: 370px) {
+    .header {
+        margin: 30px auto 0 auto;
+        width: calc(100% - (16px * 2));
     }
-}  
+}

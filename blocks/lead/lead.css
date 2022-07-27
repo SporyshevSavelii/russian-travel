@@ -1,27 +1,32 @@
-.lead{
+.lead {
     width: calc(100% - (148px * 2));
     margin: 56px auto 0 auto;
     padding: 0;
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-family: 'Inter', Arial, sans-serif;
 }
-.lead__post{
+
+.lead__post {
     margin: 64px 0 0 0;
     padding: 0;
     width: 100%;
 }
+
 @media screen and (max-width: 1024px) {
-    .lead{
+    .lead {
         margin: 48px auto 0 auto;
         width: calc(100% - (48px * 2));
     }
-    .lead__post{
+
+    .lead__post {
         margin: 56px 0 0 0;
     }
-} 
+}
+
 @media screen and (max-width: 768px) {
-    .lead{
+    .lead {
         width: 100%;
     }
-} 
+}

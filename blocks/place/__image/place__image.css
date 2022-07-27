@@ -1,25 +1,29 @@
-.place__image{
+.place__image {
     margin: 48px 0 0 0;
     padding: 0;
     grid-area: image;
 }
+
 @media screen and (max-width: 1024px) {
-    .place__image{
+    .place__image {
         width: 440px;
     }
-} 
+}
+
 @media screen and (max-width: 975px) {
-    .place__image{
+    .place__image {
         width: 340px;
     }
-} 
+}
+
 @media screen and (max-width: 745px) {
-    .place__image{
+    .place__image {
         margin: 32px 0 0 0;
     }
-} 
+}
+
 @media screen and (max-width: 400px) {
-    .place__image{
+    .place__image {
         width: 100%;
     }
 }
