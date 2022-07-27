@@ -8,20 +8,11 @@
     font-family: 'Inter', Arial, sans-serif;
 }
 
-.lead__post {
-    margin: 64px 0 0 0;
-    padding: 0;
-    width: 100%;
-}
 
 @media screen and (max-width: 1024px) {
     .lead {
         margin: 48px auto 0 auto;
         width: calc(100% - (48px * 2));
-    }
-
-    .lead__post {
-        margin: 56px 0 0 0;
     }
 }
 
