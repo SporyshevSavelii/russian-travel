@@ -11,5 +11,5 @@
 
 ## Ссылка на проект:
 
-[ссылка]([https://doka.guide](https://sporyshevsavelii.github.io/russian-travel/))
+[ссылка](https://sporyshevsavelii.github.io/russian-travel/)
 
